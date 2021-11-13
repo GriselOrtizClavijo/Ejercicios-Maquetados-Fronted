@@ -1,4 +1,5 @@
 .contenedor {
+display: flex;
 width: 1490px;
 height: 1087px;
 padding: 0px;
@@ -46,7 +47,7 @@ color: white;
 }
 
 .cajaimagen {
-background-image: url(/PET_SHOP/img/fondopet_adobespark-2.png);
+background-image: url(/img/fondopet_adobespark-2.png);
 width: 1490px;
 height: 409px;
 box-sizing: border-box;
@@ -75,6 +76,8 @@ font-weight: lighter;
 }
 
 button {
+
+border-radius: 15px;    
 background-color: orange;
 width: 150px;
 height: 40px;
@@ -97,8 +100,8 @@ text-align: center;
 }
 
 section img {
-width: 60px;
-height: 60px;
+width: 5px;
+height: 5px;
 margin-left: 50%;
 margin-top: 30px;
 }
