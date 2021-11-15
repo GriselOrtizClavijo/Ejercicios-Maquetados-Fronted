@@ -6,6 +6,11 @@ padding: 0px;
 background-color: white;
 box-sizing: border-box;
 margin: auto;
+font-family: 'Roboto', sans-serif;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
 }
 
 .cajanegra {
@@ -13,31 +18,41 @@ width: 1490px;
 height: 30px;
 background-color: black;
 box-sizing: border-box;
+display: flex;
+justify-content: space-between;
+color: white;
+}
+
+.menuregional {
+position: relative;
+justify-content:flex-end;
+padding-inline-start: 50px;
 }
 
 .cajanaranja {
 width: 1490px;
 height: 100px;
-background-color:#F0A83E;
 box-sizing: border-box;
-margin: auto; 
+background-color:#F0A83E;
+justify-content: space-around;
+align-items: stretch;
 }
 
-h6 {
-font-family: sans-serif;;
-font-size: 10px;
-display: inline-block;
-color: white;
-margin: auto;
-font-weight: lighter;
+.logo {
+padding-left: 10px;
+
 }
 
-.derecha {
+.cajanaranja h6 {
 text-align: right;
-margin-right: 0%;
+font-size: 15px;
+color: white;
+font-weight: lighter;
+padding-right: 35px;
 }
 
 .cajanaranja img {
+justify-content: space-around;
 width: 20px;
 height: 20px;
 }
@@ -48,6 +63,7 @@ color: white;
 
 .cajaimagen {
 background-image: url(/img/fondopet_adobespark-2.png);
+background-size:auto;
 width: 1490px;
 height: 409px;
 box-sizing: border-box;
