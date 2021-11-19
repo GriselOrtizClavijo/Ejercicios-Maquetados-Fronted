@@ -34,17 +34,17 @@ width: 1490px;
 height: 100px;
 box-sizing: border-box;
 background-color:#F0A83E;
-justify-content: space-around;
-align-items: stretch;
+justify-content: flex-end;
+align-items: center;
 }
+
 
 .logo {
 padding-left: 10px;
-
 }
 
-.cajanaranja h6 {
-text-align: right;
+.cajanaranja,h6 {
+text-align: end;
 font-size: 15px;
 color: white;
 font-weight: lighter;
@@ -202,4 +202,14 @@ margin: auto;
 .cajacafe .icono {
 text-align: left;
 font-size: 30px;
+}
+/*Aqui comienza mediaquerie*/
+
+@media screen and (max-width: 730px) 
+    {
+    .cajanaranja {
+        display: flex;
+
+        
+    }
 }
