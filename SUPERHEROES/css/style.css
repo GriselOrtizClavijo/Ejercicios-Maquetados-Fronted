@@ -25,6 +25,8 @@ width: 100%;
 width: 100vw;
 height: 3vh;
 background-color: #D1891C;
+display: flex;
+align-content: center;
 }
 
 .cajaheader1 h4 {
@@ -33,6 +35,7 @@ font-size: 15px;
 padding-top: 15px;
 padding-left: 5px;
 margin: 0%;
+align-items: center;
 }
 
 .cajaheader2 {
@@ -40,8 +43,9 @@ width: 100vw;
 height: 7vh;
 left: 0px;
 background-color: #00669F;
-
+display: flex;
 box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+align-content: center;
 }
 
 .cajaheader2 h1 {
@@ -53,6 +57,7 @@ line-height: 47px;
 padding-top: 20px;
 padding-left: 20px;
 margin: 0px;
+align-items:center;
 }
 
 /*Elementos del main*/
@@ -61,7 +66,7 @@ margin: 0px;
 .cajasuper {
 width: 100vw;
 height: 100%;
-background: #FFFFFF;
+background: hsl(0, 0%, 100%);
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -70,16 +75,9 @@ position: relative
 }
 
 
-.cajasuper .cajacirculo {
-justify-items: flex-end;
-z-index: -20;
-align-items: center;
-}
-
 section {
 display: flex;
 flex-direction: column;
-justify-content: center;
 position: relative;
 padding-bottom: 10%;
 }
@@ -87,6 +85,8 @@ padding-bottom: 10%;
 .corazon {
 width: 6vw ;
 height: 3vh;
+margin-top: 2%;
+margin-left: 3%;
 }
 
 section .corazon {
@@ -100,7 +100,6 @@ position: absolute;
 width: 50vw;
 height: 20vh;
 border-radius: 20px 30px 0px 0px;
-align-self: center;
 }
 
 .carasuper {
@@ -110,6 +109,7 @@ height: 20vw;
 z-index: 20;
 position: absolute;
 align-self: center;
+margin-top: 30%;
 justify-content: center;
 }
 
@@ -127,8 +127,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 1.5em;
-line-height: 3em;
-margin: 5%;
+line-height: 1em;
+margin: 1%;
 text-align: center;
 padding-top: 20%;
 }
@@ -143,15 +143,17 @@ margin: 1%;
 text-align: center;
 }
 
-.button {
+button {
 background-color: #00669F;
-width: 10rem;
-height: 5rem;
+color: white;
+font-size: 1em;
+width: 8rem;
+height: 3rem;
 z-index: 10;
-}
-
-.button h4 {
-color: rgb(255, 255, 255);
+border-radius: 5%;
+align-self:baseline;
+justify-self: center;
+position: absolute;
 }
 
 /*Elementos del footer*/
@@ -182,3 +184,14 @@ align-self: flex-end;
 }
 
 /*Aqui comienza los media queries*/
+@media screen and (min-width:414px) {  
+.cajasuper {
+    flex-direction: column;
+    align-content: center;
+        }
+} 
+
+.carasuper {
+    margin-top: 50%;
+    justify-content: center;
+    }
