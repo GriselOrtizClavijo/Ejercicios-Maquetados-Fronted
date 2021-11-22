@@ -73,11 +73,14 @@ justify-content: center;
 align-items: center;
 }
 
+li {
+margin: 4px 6px 4px 6px ;
+}
+
 .domi {
 background-image: url(/img/delivery.jpg);
 width: 490px;
 height: 350px;
-
 }
 
 .gratis {
