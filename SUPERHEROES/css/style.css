@@ -60,6 +60,32 @@ margin: 0px;
 align-items:center;
 }
 
+.cajaheader3 {
+width: 100vw;
+height: 30px;
+left: 0px;
+background-color: #000000;
+display: flex;
+box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+align-content: center;
+justify-content: flex-end;
+}
+
+.menu   {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #FFFFFF;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+justify-self: flex-end;
+align-self: center;
+list-style-type: none;
+padding: 6px 5px 5px 5px;
+}
+
+nav {
+margin: 4px 6px 4px 6px
+}
 /*Elementos del main*/
 
 

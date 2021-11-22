@@ -1,0 +1,14 @@
+* {
+box-sizing: border-box;
+flex-direction: row;
+display: flex;
+}
+
+.cajaform {
+width: 150px;
+height: 300px;
+position: relative;
+justify-content: center;
+align-content: center;
+}
+
