@@ -102,23 +102,27 @@ flex-wrap: wrap;
 justify-content: space-around;
 }
 
+article {
+position: absolute;
+display: flex;
+justify-content: space-around;
+align-content: space-between;
+}
+
 .torre {
 width: 90px;
 height: 130px;
-margin-left: 0%;
-margin-top: 0%;
-position: absolute;
-z-index: 10px;
+position: relative;
+z-index: 20px;
+padding-left: 100px;
 }
-
 
 .pizzas {
 color:rgb(0, 0, 0);
-text-align: left;
 margin-top: 0px;
-margin-left: 100px;
-align-items: flex-start;
-position: absolute
+padding-left: 500px;
+z-index: 10px;
+position: relative;
 }
 
 .podio img {
