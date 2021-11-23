@@ -172,7 +172,8 @@ z-index: 20;
 /*comienzan secciones*/
 
 .section1 {
-
+display: flex;
+position: relative;
 }
 
 .section1 img {
@@ -192,7 +193,8 @@ font-weight: lighter;
 }
 
 .section2 {
-
+display: flex;
+position: relative
 }
 .section2 h4 {
 text-align: center;
